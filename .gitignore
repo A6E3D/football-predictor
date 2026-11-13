@@ -1,0 +1,11 @@
+# virtual environment (huge, and rebuildable from requirements.txt)
+.venv/
+# raw/processed data: large, and re-download it rather than redistribute it
+data/raw/
+data/processed/
+# Python cache files
+__pycache__/
+*.pyc
+# notebook autosave + secrets (API keys go here in Phase 5)
+.ipynb_checkpoints/
+.env
