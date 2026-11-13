@@ -9,7 +9,4 @@ with open("practice/sample.csv", newline="") as f:
         goals[row["HomeTeam"]] = goals.get(row["HomeTeam"], 0) + int(row["FTHG"])
 
         goals[row["AwayTeam"]] = goals.get(row["AwayTeam"], 0) + int(row["FTAG"])
-
-    print(type(reader))   # <class 'csv.DictReader'>
-    print(type(row))      # <class 'dict'>
     print(goals)
